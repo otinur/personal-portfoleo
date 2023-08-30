@@ -1,0 +1,454 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Fira Sans', sans-serif;
+}
+/* nev_bar start */
+.nav_bar{
+    cursor: pointer;
+    background-color: #0c6168;
+    padding: 1% 7%;
+    text-align: center;
+}
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+h2{
+    font: 1.5rem;
+    text-align: center; 
+    padding-top: 15px;
+}
+.common_hr{
+    border: dotted 6px;
+    border-bottom: none;
+    width: 70px;
+    margin: 20px auto;
+    color: white;
+}
+
+.logo img{
+    width: 80px;
+    height: 80px;
+}
+.heading h1{
+    font-size: 2.5rem;
+    text-align: center;
+    color: white;
+    margin: 0;
+    padding-top: 10px;
+}
+/* desktop and mobile */
+[class*="col-"]{
+    float: left;
+    padding: 10px;
+}
+
+/* for mobile */
+[class*="col-"]{
+    width: 100%;
+}
+
+.nav_bar::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+
+.menu_bar a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    font: size 1.2em;
+    margin: 7px;
+    padding: 10px;
+    background-color: #40868b;
+    border-radius: 10px;
+}
+.menu_bar a:hover{
+    background-color: gray;
+}
+.menu_bar{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+/* nev_bar end */
+
+
+/* profile design start */
+
+.profile{
+    text-align: center;
+    position: relative;
+    padding: 130px 10px;
+}
+.weather_top{
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    transition: 2s;
+}
+.weather_top:hover{
+    transform: rotate(360deg);
+}
+.weather_top img{
+    width: 130px;
+    height: 130px;
+
+}
+.profile_heading{
+    transform: 2s;
+}
+.profile_heading:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+.profile_heading h1{
+    font-family:'Satisfy' , 'cursive';
+    font-size: 2.5rem;
+}
+.profile_heading p{
+    width: 90%;
+    text-align: center;
+    color: gray;
+    margin:10px auto 20px auto ;
+}
+.weather_buttom img{
+    width: 130px;
+    height: 130px;
+}
+.weather_buttom{
+    position: absolute;
+    bottom: 10px;
+    left:40px;
+    transition: 2s;
+}
+.weather_buttom:hover{
+    transform: rotate(360deg);
+}
+
+
+/* profile design end */
+
+/* About me design start */
+
+.about_me{
+    background-color: #39a4ac;
+    font-family: 'Montserrat', sans-serif; 
+    color: white;
+    padding: 1%, 7%;
+    text-align: center;
+    cursor: pointer;
+}
+.about_me::after{
+    clear: both;
+    display: table;
+    content: '';
+}
+.aboutme_image img{
+    width: 155px;
+    height: 180px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+.aboutme_desc{
+  font-size: 1.2rem;  
+}
+.aboutme_desc p{
+    text-align: center;
+    padding: 20px;
+}
+.aboutme_desc a{
+    color: white;
+    text-decoration: none;
+}
+.about_hr{
+    border: 2px solid;
+    text-align: center;
+}
+.btns{
+    background-color: #052d2f;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    width:100px;
+    height:20px;
+}
+
+/* About me design start */
+
+/* Skill design start */
+
+.skill{
+    padding: 1% 0%;
+    margin: 20px auto;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+.card_1{
+   
+    background-color: #a39e9e;
+    border-radius: 10px;
+    /* padding: 25px; */
+    height: 700px;
+    transition: 2s;
+
+    
+}
+.card_1:hover{
+    box-shadow: 0px 4px 6px 8px ;
+}
+.card1-title h1{
+    margin-top: 5px;
+    font-size: 2rem;
+    text-align: center;
+    padding: 20px 10px;
+    background-color: #616161;
+    color: #ffff;
+}
+.card1-image{
+    text-align: center;
+    padding: 20px ;
+}
+.img1{
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.card1-image img{
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+}
+
+.card1-desc{
+    padding: 20px;
+    font-size: 1.2rem;
+    margin-top: 25px;
+}
+
+.skill_hr{
+    border: 2px solid #ffff;
+}
+
+.card_2{
+    height: 700px;
+    background-color: #a39e9e;
+    margin-left: 50px;
+    margin: 20px auto;
+    border-radius: 10px;
+    transition: 2s;
+    
+}
+.card_2:hover{
+    box-shadow: 0px 4px 6px 8px ;
+}
+.card2-image{
+    text-align: center;
+    padding: 20px;
+}
+.card2-image img{
+    height: 120px;
+    width: 100px;
+    padding: 10px;
+}
+.card2-title{
+    padding: 0px 25px;
+}
+.card2-title h1{
+    background-color: #616161;
+    color: #ffff;
+    text-align: center;
+    font-size: 2rem;
+    padding: 20px 10px;
+}
+
+
+/* .container{
+   
+}  */
+.container li{
+    list-style: none;
+    padding: 5px;
+    margin: 40px 0px;
+    text-transform: uppercase;
+    font-weight: bolder;
+    position: relative;
+}
+.container li::before{
+    position: absolute;
+    content: '';
+    background-color: rgb(96, 147, 192);
+    width: 100%;
+    height: 15px;
+    top: calc(100% + 5px);
+    border-radius: 500px;
+    left: 0;
+}
+.container li::after{
+    position: absolute;
+    content: '';
+    background-color:#196cc5;
+    width: 0;
+    height: 15px;
+    top: calc(100% + 5px);
+    left: 0;
+    border-radius: 500px;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    /* animation-fill-mode: forwards; */
+    animation-iteration-count: infinite;
+}
+.container li.html::after{
+    animation-name: html;
+}
+@keyframes html{
+    to{
+        width: 90%;
+        
+    }
+}
+.container li.css::after{
+    animation-name: css;
+}
+@keyframes css{
+    to{
+        width: 70%;
+        
+    }
+}
+.container li.js::after{
+    animation-name: js;
+}
+@keyframes js{
+    to{
+        width: 20%;
+        
+    }
+}
+.container li.boost::after{
+    animation-name: boost;
+}
+@keyframes boost{
+    to{
+        width: 10%;
+        
+    }
+}
+.container li.cpuls::after{
+    animation-name:cpuls;
+}
+@keyframes cpuls{
+    to{
+        width: 10%;
+        
+    }
+}
+.skill::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/* Skill design end */
+
+/* Contact design start */
+
+.contact2-here{
+    padding: 1% 0%;
+    background-color: #39a4ac;
+    width: 100%;
+}
+.achievements{
+    padding: 10px;
+}
+.achievements p{
+    color: white;
+    font-size: 1.2rem;
+}
+.achievements h2{
+    color:white;
+}
+
+.contact2-here::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.contact{
+    text-align: center;
+    
+}
+.contact input, textarea{
+    width: 100%;
+    margin:5px auto;
+    border: none;
+    text-align: center;
+    border-radius: 5px;
+    resize: none;
+}
+.contact input{
+    height: 30px;
+}
+.contact h2{
+    color: white;
+}
+.contact-link{
+    text-align: center;
+}
+.contact-link h2{
+    color:white;
+}
+.media-btn .button1{
+    width: 45px;
+    padding:5px;
+    height: 40px;
+    background-color: white;
+    border: none;
+    font-size: 22px;
+    border-radius: 23px;
+    margin: 10px;
+}
+.button1:hover{
+    background-color: gray;
+}
+
+
+/* Contact design end */
+
+/* footer design start */
+
+.footer{
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+    display: block;
+    margin: 10px;
+    text-transform: uppercase;
+    font-size: 1rem;
+}
+.footer a:hover{
+    color: gray;
+}
+.footer-desc{
+    color: white;
+    font-size: 1;
+
+}
+
+.footer::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+/* footer design end */

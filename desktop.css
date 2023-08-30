@@ -1,0 +1,141 @@
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+
+
+/* nev_bar start */
+
+.logo{
+    text-align: left;
+}
+.heading h1{
+    text-align: right;
+    
+}
+
+
+.menu_bar{
+    flex-direction: row;
+    justify-content: flex-end;
+}
+.menu_bar a{
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 20px 0px;
+}
+
+/* nev_bar end */
+
+/* profile design start */
+
+.weather_top{
+    top: 20px;
+    right: 40px;
+   
+    transition: 2s;
+}
+.weather_top:hover{
+   transform: scale(1.3) rotate(360deg);
+}
+
+.profile_heading h1{
+    font-size: 3.5rem;
+}
+.profile_heading p{
+    width: 50%;
+}
+.weather_buttom{
+    bottom: 20px;
+    left: 40px;
+   
+    transition: 2s;
+}
+.weather_buttom:hover{
+   transform: scale(1.3) rotate(360deg);
+}
+/* profile design end */
+
+
+/* About me design start */
+
+.aboutme_image{
+    margin-top: 150px;
+}
+.aboutme_image img{
+    height: 270px;
+    width: 250px;
+}
+.aboutme_desc p{
+    text-align: left;
+    padding: 20px 0px;
+}
+
+/* About me design end */
+
+/* Skill design start */
+
+.skill{
+    margin: 20px auto;
+}
+.card_1{
+    margin: 20x 20px;
+    margin-left: 90px;
+}
+.card_2{
+    margin: 0px 20px;
+    padding: 0;
+    
+}
+
+/* Skill design end */
+
+/* Contact design start */
+
+.contact2-here{
+   margin-right: 50px;
+}
+
+button{
+    height: 25px;
+}
+
+.contact-link{
+    position: relative;
+}
+.media-btn{
+    position: absolute;
+    right: 120px;
+    top: 50px;
+    width: 150px;
+    margin-top: 100px;
+}
+
+/* Contact design end */
+
+/* footer design start */
+.footer{
+    height: 80px;
+}
+.footer-menu{
+    margin-top: 15px;
+}
+.footer-menu a{
+    display: inline; 
+}
+.footer-desc{
+    margin-top: 15px;
+}
+
+/* footer design end */
